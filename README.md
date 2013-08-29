@@ -3,6 +3,9 @@ tabular.js
 
 A responsive table plugin for jQuery.
 
+Usage
+-----
+
 Include it at the bottom of your page:
 
 ```html
@@ -12,19 +15,20 @@ Include it at the bottom of your page:
 Add the `data-tabular` attribute to your table tags:
 
 ```html
-  <table class="table table-bordered" data-tabular="responsive">
-			<thead>
-				<tr>
-					<th>ABC</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>123</td>
-					    ...
-				</tr>
-			</tbody>
-		</table>
+<table class="table table-bordered" data-tabular="responsive">
+  <thead>
+    <tr>
+      <th>ABC</th>
+          ...
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>123</td>
+          ...
+    </tr>
+  </tbody>
+</table>
 ```
 
 And sit back and watch the magic happen...
