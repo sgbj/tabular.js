@@ -1,0 +1,128 @@
+<!doctype HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Tabular</title>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+		<style>
+			body {
+				padding: 20px;
+			}
+			th {
+				background-color: #f5f5f5;
+				border: 1px solid #e3e3e3;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<table class="table table-bordered" data-tabular="responsive">
+			<thead>
+				<tr>
+					<th>Lots</th>
+					<th>of</th>
+					<th>important</th>
+					<th>data</th>
+					<th>here</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>ABCD</td>
+					<td>EFGH</td>
+					<td>IJKL</td>
+					<td>MNOP</td>
+					<td>QRST</td>
+				</tr>
+				<tr>
+					<td>UVWX</td>
+					<td>YZAB</td>
+					<td>CDEF</td>
+					<td>GHIJ</td>
+					<td>KLMN</td>
+				</tr>
+				<tr>
+					<td>OPQR</td>
+					<td>STUV</td>
+					<td>WXYZ</td>
+					<td>ABCD</td>
+					<td>EFGH</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<table class="table table-bordered" data-tabular="responsive">
+			<thead>
+				<tr>
+					<th>Lots</th>
+					<th>of</th>
+					<th>other</th>
+					<th>important</th>
+					<th>data</th>
+					<th data-tabular="unimportant">Not so important</th>
+					<th>But this is</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>ABCD</td>
+					<td>EFGH</td>
+					<td>IJKL</td>
+					<td>MNOP</td>
+					<td>QRST</td>
+					<td data-tabular="unimportant">Not so important</td>
+					<td>But this is</td>
+				</tr>
+				<tr>
+					<td>UVWX</td>
+					<td>YZAB</td>
+					<td>CDEF</td>
+					<td>GHIJ</td>
+					<td>KLMN</td>
+					<td data-tabular="unimportant">Not so important</td>
+					<td>But this is</td>
+				</tr>
+				<tr>
+					<td>OPQR</td>
+					<td>STUV</td>
+					<td>WXYZ</td>
+					<td>ABCD</td>
+					<td>EFGH</td>
+					<td>&nbsp;</td>
+					<td>But this is</td>
+				</tr>
+				<tr>
+					<td>ABCD</td>
+					<td>EFGH</td>
+					<td>IJKL</td>
+					<td>MNOP</td>
+					<td>QRST</td>
+					<td data-tabular="unimportant">Not so important</td>
+					<td>But this is</td>
+				</tr>
+				<tr>
+					<td>UVWX</td>
+					<td>YZAB</td>
+					<td>CDEF</td>
+					<td>GHIJ</td>
+					<td>KLMN</td>
+					<td data-tabular="unimportant">Not so important</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>OPQR</td>
+					<td>STUV</td>
+					<td>WXYZ</td>
+					<td>ABCD</td>
+					<td>EFGH</td>
+					<td>&nbsp;</td>
+					<td>But this is</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="tabular.js"></script>
+	</body>
+</html>
